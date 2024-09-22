@@ -55,7 +55,7 @@ nav{
     height: 837px;
     height: 590px;
     gap: 120px;
-    background-image: url('/images/header_bg.png');
+    background-image: url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 550px;
