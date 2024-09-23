@@ -55,7 +55,7 @@ nav{
     height: 837px;
     height: 590px;
     gap: 120px;
-    background-image: url('images/header_bg.png');
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 550px;
@@ -123,4 +123,45 @@ nav{
 }
 .images>img{
     margin-top: 0px;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+}
+.information  div p:nth-last-of-type(2){
+    color: #757575;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.information  div p:nth-last-of-type(1){
+    font-weight: bold;
+    font-size: 18px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.about-me-content{
+    background-color: white;
+    width: 820px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+.about-me-content>p:nth-of-type(1){
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.about-me-content>p:nth-of-type(2){
+    font-size: 15px;
+    color: #757575;
+}
+.about-me{
+    background-color:#FFF8F3;
+    padding: 125px 145px;
+    margin-top: 80px;
+}
+.total-about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
